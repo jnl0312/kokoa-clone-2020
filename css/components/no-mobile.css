@@ -1,10 +1,10 @@
 #no-mobile {
     position: absolute;
     z-index: 99;
-    height: 1000vh;
     /*width가 넓으면 같이 안보여야 하므로 1000vh까지 늘림*/
-    background-color: var(--yellow);
+    background-color: var(--gray);
     width: 100vw;
+    height: 1000vh;
     top: 0;
     /*만약 height:100vh이고 
     여기에 아래 코드를 작성할 경우 스크롤을 아래로 내리면
@@ -27,7 +27,7 @@ display: flex;
     padding-top: 300px;
 }
 
-@media screen and (max-width: 645px) and (max-height:800px) {
+@media screen and (max-width: 645px) {
     #no-mobile {
         display: none;
     }
