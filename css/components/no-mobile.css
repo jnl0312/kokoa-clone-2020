@@ -27,7 +27,7 @@ display: flex;
     padding-top: 300px;
 }
 
-@media screen and (max-width: 645px) and (max-height:680px) {
+@media screen and (max-width: 645px) and (max-height:800px) {
     #no-mobile {
         display: none;
     }

@@ -54,3 +54,7 @@
     z-index: 3;
     /*status-bar의 z-index가 */
 }
+
+.fa-info-circle {
+    margin-right: 5px;
+}
