@@ -40,10 +40,9 @@
 }
 
 #splash-screen {
-    background-image: url("photo/background.jpg");
+    background-image: url("http://ab-studio.co.kr/wp-content/uploads/2017/06/001.jpg");
     background-position: center;
     background-size: cover;
-    background-color: #0d1219;
     position: fixed;
     height: 100vh;
     width: 100vw;
