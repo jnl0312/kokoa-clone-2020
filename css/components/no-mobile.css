@@ -27,7 +27,7 @@ display: flex;
     padding-top: 300px;
 }
 
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 630px) {
     #no-mobile {
         display: none;
     }
