@@ -22,7 +22,7 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 body {
-    background-color: #0d1219;
+    background-color: #25272D;
     color: whitesmoke;
     font-family: 'Open Sans', sans-serif;
     height: 1000vh;

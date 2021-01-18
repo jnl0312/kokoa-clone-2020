@@ -10,7 +10,11 @@
     position: fixed;
     width: 100%;
     box-sizing: border-box;
-    background-color: #25272d
+    background-color: #25272d;
+}
+
+#chat-screen .status-bar {
+    background-color: black;
 }
 
 #chat-screen .status-bar {
@@ -94,6 +98,10 @@
     border-top-left-radius: 15px;
     margin-right: 0px;
     margin-left: 5px;
+}
+
+.message-row:first-child {
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -210,4 +218,8 @@ message-row--own .message__info {
 .reply__column button:focus,
 .reply__column button:active {
     outline: none;
+}
+
+.user-component__time {
+    color: var(--gray);
 }

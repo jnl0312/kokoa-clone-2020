@@ -1,7 +1,7 @@
 #friends-display-link {
     text-align: center;
     display: block;
-    background-color: rgba(121, 121, 121, 0.3);
+    background-color: rgb(147, 136, 112);
     padding: 15px 0px;
     font-size: 18px;
     margin-bottom: 15px;
@@ -78,7 +78,6 @@
 .user-component__message {
     margin-top: 8px;
     font-size: 15px;
-    background-color: #0d1219;
 }
 
 .user-component__column .song {
@@ -100,5 +99,10 @@
 
 .user-component__message,
 .user-component__subtitle {
+    color: var(--gray);
+}
+
+#channel_nunmber,
+.fa-chevron-right {
     color: var(--gray);
 }

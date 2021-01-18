@@ -2,7 +2,7 @@
     position: absolute;
     z-index: 99;
     /*width가 넓으면 같이 안보여야 하므로 1000vh까지 늘림*/
-    background-color: var(--gray);
+    background-color: black;
     width: 100vw;
     height: 1000vh;
     top: 0;
