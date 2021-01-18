@@ -40,7 +40,7 @@
 }
 
 #splash-screen {
-    background-image: url("/photo/비숲배경.jpg");
+    background-image: url("photo/비숲배경.jpg");
     background-position: center;
     background-size: cover;
     background-color: #0d1219;
